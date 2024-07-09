@@ -311,6 +311,9 @@ button:hover {
 
     background: rgba(255, 223, 0, 0.05);
 }
+.next-target{
+    margin-top: 111px;
+}
 
 .next-t-con {
     display: flex;
