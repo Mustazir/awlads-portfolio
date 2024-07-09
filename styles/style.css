@@ -18,14 +18,27 @@ body {
     color: #0D1321;
 }
 
-.text-title {
+.text-description-primary {
     color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
 
+.text-title-primary {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
-    line-height: 37px;
-    letter-spacing: 0%;
+}
 
+.text-title {
+    color: rgba(13, 19, 33, 0.7);
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
 }
 
 .btn {
@@ -141,7 +154,8 @@ nav button {
 
 
 }
-.card-t{
+
+.card-t {
     width: 1140px;
     height: 1395px;
     display: flex;
@@ -156,8 +170,8 @@ nav button {
     display: flex;
     margin: auto;
     margin-bottom: 32px;
-    
-    
+
+
 }
 
 .card {
@@ -180,3 +194,30 @@ nav button {
     margin-bottom: -50px;
 }
 
+
+/* INPIRATION */
+.inpiration {
+    width: 1140px;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 88px;
+}
+
+.vido {
+    width: 1140px;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 48px;
+    padding: 32px;
+}
