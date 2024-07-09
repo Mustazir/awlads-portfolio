@@ -110,12 +110,15 @@ button:hover {
 .hero {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    
     align-items: center;
     padding: 0px;
-    background-image: url(assets/Hero-bg.png);
+    background: url(assets/Hero-bg.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    
+    
 }
 
 .hero-container {
