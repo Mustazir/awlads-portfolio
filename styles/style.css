@@ -18,6 +18,27 @@ body {
     color: #0D1321;
 }
 
+.text-title {
+    color: rgb(13, 19, 33);
+
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+
+}
+
+.btn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    background: none;
+}
 
 
 /* header design */
@@ -39,6 +60,7 @@ nav h1 {
 
 nav button {
     cursor: pointer;
+    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600px;
     color: #0D1321;
@@ -48,7 +70,7 @@ nav button {
     border: 1px solid #0D1321;
 }
 
-.banner {
+.hero {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -59,7 +81,7 @@ nav button {
     background-size: cover;
 }
 
-.banner-container {
+.hero-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,26 +89,27 @@ nav button {
     align-items: center;
     width: 998px;
     height: 581px;
-   
+
 }
 
-.banner-container .banner-img {
+.hero-container .hero-img {
     max-width: 240px;
 }
 
-.banner-container .banner-img img {
+.hero-container .hero-img img {
     width: 100%;
 }
 
-.banner-title {
+.hero-title {
     font-size: 48px;
     font-weight: 800px;
     color: #0D1321;
 }
 
 
-.banner-btn {
+.hero-btn {
     cursor: pointer;
+    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     color: rgb(255, 255, 255);
@@ -94,3 +117,66 @@ nav button {
     border-radius: 8px;
     background: rgb(13, 19, 33);
 }
+
+/* card design */
+.about-card {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 74px;
+
+}
+
+.card-container {
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.02);
+    width: 1140px;
+    height: 1395px;
+    padding: 80px 97px 80px 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.card-t{
+    width: 1140px;
+    height: 1395px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 74px;
+}
+
+.cards {
+    width: 1140px;
+    height: 1395px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 32px;
+    
+    
+}
+
+.card {
+    padding: 48px;
+
+    display: flex;
+    margin-top: 0px;
+    gap: 32px;
+}
+
+.card-info {
+    width: 70%;
+    margin-right: 60px;
+
+
+}
+
+.cards-title {
+    text-align: center;
+    margin-bottom: -50px;
+}
+
