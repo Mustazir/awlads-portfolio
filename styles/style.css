@@ -24,6 +24,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
+    line-height: 26px;
 }
 
 .s-d-text {
@@ -48,6 +49,8 @@ body {
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
+
+    
 }
 
 .btn {
@@ -61,6 +64,10 @@ body {
     padding: 12px 20px 12px 20px;
     background: none;
 }
+.btn:hover {
+    background-color: #0D1321;
+    color: white;
+  }
 
 
 /* header design */
@@ -91,6 +98,14 @@ nav button {
     border-radius: 8px;
     border: 1px solid #0D1321;
 }
+button:hover {
+    background-color: #ffffff;
+    color: rgb(8, 0, 0);
+  }
+  nav>button:hover {
+    background-color: #0D1321;
+    color: rgb(255, 252, 252);
+  }
 
 .hero {
     display: flex;
@@ -179,6 +194,9 @@ nav button {
     display: flex;
     margin: auto;
     margin-bottom: 32px;
+    border-radius: 16px;
+
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 
 
 }
@@ -392,6 +410,10 @@ nav button {
     border: none;
     cursor: pointer;
 }
+.box>input[type="button"]:hover {
+    background-color: #520808;
+    color: rgb(230, 219, 219);
+  }
 
 footer {
     margin-top: 80px;
@@ -414,7 +436,8 @@ footer {
     letter-spacing: 0%;
     text-align: center;
 }
-.f-img{
+
+.f-img {
     display: flex;
     gap: 30px;
 }
